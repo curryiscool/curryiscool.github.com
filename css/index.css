@@ -1,0 +1,361 @@
+a{
+    outline: none;
+}
+.topdex{
+    margin-bottom: 0;
+    z-index:10;
+    background: rgba(248, 248, 248, 0);
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-family: 微软雅黑;
+    position: fixed ;
+    width:100%;
+    transition:all 0.3s linear;
+    height: 70px;
+    padding-top: 10px;
+}
+.bottomdex{
+    z-index:1;
+}
+.notonepage{
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.page1 {
+    background-color: #fff;
+}
+
+.page2 {
+    background-color: #f3f3f3;/*#4BBFC3*/
+}
+
+.page3 {
+    background-color: #f3f3f3;/*#FF7F50;*/
+}
+
+/*.page4 {*/
+    /*background-color: #1bbc9b;*/
+/*}*/
+
+p.title {
+    position: relative;
+    top: 35%;
+    font: 700 40px "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+}
+#myc>ul>li>a{
+    color: #f8f8f8;
+    cursor:pointer;
+    border-radius: 50%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+#myc>ul>li>a:hover{
+    background: rgba(231, 231, 231, 0.20);
+}
+#firsta{
+    background: rgba(231, 231, 231, 0.35);
+}
+#nomologo{
+    font-family: 'Clicker Script', cursive;
+    color: #f8f8f8;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+#hanbao>span{
+    background: #f8f8f8;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: rgba(0,0,0,0);
+}
+.lunbo{
+    margin-top:70px;
+}
+.carousel-indicators .active{
+    background: #4bbfc3;
+}
+.carousel-indicators li{
+    border: 1px solid #4bbfc3;
+}
+.zhanshi{
+    font-family: "microsoft yahei";
+    color: #777;
+    margin-top: 1em;
+}
+.zhanshi p{
+    font-size: 16px;
+}
+.zhanshi h2{
+    margin-top: 0;
+}
+.game{
+    background: #4bbfc3;
+    margin-top: 19em;
+    height: 20em;
+    box-shadow:0px 10px 15px rgba(0,0,0,0.1) inset;
+    padding-top: 2.2em;
+    transition:all 1s linear;
+}
+.game .container .row .col-xs-4{
+    /*margin-left: 5em;*/
+    padding-left: 8em;
+}
+.game .container .row .col-xs-4 a{
+    outline: none;
+}
+.game .container .row .col-xs-4 a img{
+    width: 120px;
+}
+.game .container .row .col-xs-4 a img:hover{
+    width: 130px;
+}
+.modal-body{
+    padding-top:0;
+
+}
+.carousel-indicators{
+    bottom: 10px;
+}
+iframe{
+    border: 2px solid #ddd;
+}
+.chiwidth{
+    width: 430px;
+}
+#my-ad2 .carousel-inner .item a{
+    outline: none;
+}
+#modal3 .modal-dialog .modal-content .modal-body iframe{
+    border: 0;
+}
+.conpadd{
+    padding:0;
+}
+/*第三页*/
+.bolg{
+    margin-top: 120px;
+}
+.moblie1{
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 5em;
+    transition:all 1s linear;
+}
+.moblie2{
+    position: absolute;
+    transform: rotate(0deg);
+    top: 5em;
+    left: 200px;
+    transition:all 1s linear;
+}
+.ziyuan{
+    font-family: "microsoft yahei";
+    color: #777;
+    margin-top: 15em;
+    margin-left: 120%;
+    transition:all 1s linear;
+
+}
+.ziyuan p{
+    font-size: 16px;
+}
+.ziyuan h2{
+    margin-bottom: 0.5em;
+    color: rgb(75, 191, 195);
+}
+.ziyuan a{
+    display: inline-block;
+    width: 10em;
+    margin: 1em 0;
+    background: rgba(255, 255, 255, 0);
+    color: rgba(119, 119, 119, 1);
+    border-color: rgba(119, 119, 119, .5);
+    transition:all 0.5s linear;
+}
+.ziyuan a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(75, 191, 195);
+    border-color: rgb(75, 191, 195);
+}
+/*第四页*/
+.page4 h1{
+    display:block;
+    margin:10% auto;
+    margin-bottom:0;
+    text-align:center;
+    font-family:"微软雅黑";
+    color:#fff;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);;
+}
+.timer{
+    top:25%;
+}
+.timeBtn{
+    padding: 20em;
+}
+.timeBtn h5{
+    margin: 2em auto;
+    font-family: "微软雅黑";
+    color: rgba(255, 255, 255, .7);
+}
+.timeBtn a,.timeBtn a:focus{
+    margin:0 1em;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, .7);
+    border-color: rgba(255, 255, 255, .7);
+    transition:all 0.5s linear;
+}
+.timeBtn a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(75, 191, 195);
+    border-color: rgb(75, 191, 195);
+}
+
+
+
+
+
+/*小于767px的手机*/
+@media screen and (max-width: 767px) {
+    #myc>ul>li>a{ border-radius: 0%; }
+    .game .container .row .col-xs-4{ margin-left: 0;}
+
+    .zhanshi{ margin-top: 3em; }
+    .game{ padding-top: 3em; margin-top: 0 ;}
+    .game .container .row .col-xs-4{
+        padding-left: 2em;
+    }
+    .padtext{
+        padding-top: 1em;
+        font-family: "microsoft yahei";
+        color: #fff;
+    }
+    .moblie1,.moblie2{
+        width: 40%;
+    }
+    .moblie1{
+        left: 10%;
+    }
+    .moblie2{
+        left: 55%;
+    }
+    .bolg{
+        margin-top: 0;
+    }
+    .ziyuan{
+        margin-top: 98%;
+        margin-left: 0;
+    }
+    .ziyuan p{
+        font-size: 1em;
+    }
+}
+/*大于768 小于 991 的平板电脑*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .zhanshi{ margin-top: 8em; }
+    .game{ padding-top: 5em; margin-top: 5em; height: 30em;}
+    .game .container .row .col-xs-4{
+        padding-left: 4em;
+    }
+    .padtext{
+        padding-top: 2em;
+        font-family: "microsoft yahei";
+        color: #fff;
+    }
+    .moblie1,.moblie2{
+        width: 40%;
+    }
+    .moblie1{
+        left: 10%;
+    }
+    .moblie2{
+        left: 55%;
+    }
+    .bolg{
+        margin-top: 0;
+    }
+    .ziyuan{
+        margin-top: 90%;
+        margin-left: 0;
+    }
+
+}
+
+
+/*小于1200px的中型电脑*/
+@media screen and (max-width: 1200px) and (min-width: 992px){
+    .zhanshi{ margin-top: 0; }
+    .game{ padding-top: 1em; margin-top: 3em;}
+    .game .container .row .col-xs-4 a img{
+        width: 90px;
+    }
+    .game .container .row .col-xs-4 a img:hover{
+        width: 100px;
+    }
+    .moblie1,.moblie2{
+        width:50%;
+    }
+    .bolg{
+        margin-top: 3em;
+    }
+    .timeBtn{
+        padding: 4em;
+    }
+}
+
+/*1366笔记本*/
+@media screen and (max-width: 1367px) and (min-width: 1201px){
+    .modal-dialog{margin: 2px auto;}
+    .game{ padding-top: 1em; margin-top: 0em;}
+    .lunbo{
+        height: 300px;
+        width:auto;
+    }
+    .lunbo .carousel-inner .item{
+        padding-left: 8em;
+    }
+    .lunbo .carousel-inner .item a img{
+        height: 300px;
+        width:auto;
+    }
+    .game .container .row .col-xs-4{
+        padding-left: 10em;
+    }
+    .game .container .row .col-xs-4 a img{
+        width: 90px;
+    }
+    .game .container .row .col-xs-4 a img:hover{
+        width: 100px;
+    }
+    .bolg{
+        margin-top: 4em;
+    }
+    .moblie1,.moblie2{
+        width: 45%;
+    }
+    .timeBtn{
+        padding: 4em;
+    }
+    .zhanshi{ margin-top: 0; }
+}
+/*小于1499px的中型电脑*/
+@media screen and (max-width: 1499px) and (min-width: 1368px) {
+    .modal-dialog{margin: 2px auto;}
+    .game{ padding-top: 2em; }
+    .timeBtn{
+        padding-top: 12em;
+    }
+    .bolg{
+        margin-top: 5em;
+    }
+}
+/*大于1601px的大屏电脑*/
+@media screen and (min-width: 1601px){
+    .zhanshi{ margin-top: 3em; margin-bottom: 3em;}
+    .game{ padding-top: 5em; }
+    .lunbo{ margin-top:120px; }
+
+}
