@@ -77,11 +77,11 @@ $(function () {
         }
         if(index == 3) {
             $(".moblie1").css({
-                "left": "200px"
+                "left": "800px"
             });
             $(".moblie2").css({
                 "transform": "rotate(-15deg)",
-                "left": "100px"
+                "left": "700px"
             });
             $(".ziyuan").css({
                 "margin-left": "45%"
