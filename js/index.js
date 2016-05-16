@@ -95,7 +95,7 @@ $(function () {
     var randomNum = parseInt(Math.random() * 9);
     console.log(randomNum);
     var bgImage = document.getElementById("large-header");
-    bgImage.style.backgroundImage = "url(http://7xu1tx.com1.z0.glb.clouddn.com/demo-2-bg.jpg)";
+    bgImage.style.backgroundImage = "url(http://7xu1tx.com1.z0.glb.clouddn.com/1463402274508.jpg)";
 
     //模态框
     $('#modala1').click(function(){
